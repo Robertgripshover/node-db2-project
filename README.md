@@ -4,6 +4,14 @@ Notes from Robert Gripshover
 1. added .eslinitrc.json file 
 2. wrote everything inside in 01-cars.js file inside the seeds folder
 3. wrote in the 01-make_cars_table.js file inside the migrations folder
+4. wrote a little part in server.js
+5. added code inside cars-router
+6. added code inside cars-model
+7. added code inside cars-middleware
+8. wrote a lot of scripts inside of the package.json
+9. wrote inside of the index.js file
+10. installed 'npm install -g nodemon'
+11. installed 'npm install'
 
 
 # Node DB2 Project Starter Code
