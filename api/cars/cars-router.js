@@ -28,7 +28,11 @@ router.get('/:id', checkCarId, async (req, res, next) => {
     res.json(req.car)
 })
 
-router.post('/', async (req, res, next) => {
+router.post('/',
+    checkCarPayload,
+    checkVinNumberValid, //all the middlewares
+    checkVinNumberUnique,
+ async (req, res, next) => {
     res.json('posting new car')
 })
 
