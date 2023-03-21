@@ -4,7 +4,7 @@
 
 exports.up = function (knex) {
   return knex.schema.createTable('cars', table => {
-    table.increaments()
+    table.increments()
     //this means this table will automatically increment, 
     //and it is not given much more becuase the readme
     //said that the db will be providing the id
@@ -16,7 +16,7 @@ exports.up = function (knex) {
 
     table.string('model', 128).notNullable()
 
-    table.numeric('mileage').unsigned().notNullable()
+    table.integer('mileage').unsigned().notNullable()
     //the .unsigned() means that the milage cannot be negative num
     //this is a number so we are using numeric
 
@@ -44,6 +44,6 @@ exports.down = function (knex) {
   //the down functions undoes all of the things the
   //up funciton did and in reverse order
 
-  
+
 
 };
