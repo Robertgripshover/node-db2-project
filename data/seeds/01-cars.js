@@ -10,7 +10,7 @@ const cars = [
         transmission: 'manual',
     },
     {
-        vin:  '1111111111111',
+        vin:  '2222222222222',
         make: 'audi',
         model: 'a6',
         mileage: 100000,
@@ -18,7 +18,7 @@ const cars = [
         transmission: 'automatic',
     },
     {
-        vin:  '1111111111111',
+        vin:  '33333333333',
         make: 'infiniti',
         model: 'g35',
         mileage: 117000,
