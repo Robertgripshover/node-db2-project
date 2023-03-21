@@ -1,3 +1,10 @@
+
+Notes from Robert Gripshover
+
+1. added .eslinitrc.json file 
+2. wrote everything inside in 01-cars.js file inside the seeds folder
+
+
 # Node DB2 Project Starter Code
 
 ## Introduction
