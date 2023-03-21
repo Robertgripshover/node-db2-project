@@ -10,8 +10,11 @@ Notes from Robert Gripshover
 7. added code inside cars-middleware
 8. wrote a lot of scripts inside of the package.json
 9. wrote inside of the index.js file
-10. installed 'npm install -g nodemon'
+10. installed 'npm install -g nodemon' 
 11. installed 'npm install'
+12. I think this might be optional for if you want to use the vscode debugger
+that you download the nodemon install and the write the code I 
+have inside of the launch.json file inside of the vscode folder.
 
 
 # Node DB2 Project Starter Code
