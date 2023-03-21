@@ -1,8 +1,12 @@
-// STRETCH
+
+
+//IMPORTANT TO REMEMBER THAT
+//ANYTIME YOU CHANGE THE INFORMATION IN HERE
+//YOU NEED TO RUN 'npm run seed'
 
 const cars = [
     {
-        vin:  '1111111111111',
+        vin:  'YS3FB49S741008010',
         make: 'toyota',
         model: 'tacoma',
         mileage: 215000,
@@ -10,7 +14,7 @@ const cars = [
         transmission: 'manual',
     },
     {
-        vin:  '2222222222222',
+        vin:  'JH4DA3450KS009535',
         make: 'audi',
         model: 'a6',
         mileage: 100000,
@@ -18,7 +22,7 @@ const cars = [
         transmission: 'automatic',
     },
     {
-        vin:  '33333333333',
+        vin:  'JNKCV51E03M018631',
         make: 'infiniti',
         model: 'g35',
         mileage: 117000,
