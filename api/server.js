@@ -8,7 +8,9 @@ const server = express()
 server.use(express.json()) //<<<added this
 
 
-server.use('api/cars', carsRouter)
+server.use('/api/cars', carsRouter) //always make sure you put
+//this in between the other two server.uses!
+//also make sure you have the right amount of slashes in there!
 
 
 server.use('*', (req, res, next) => {
