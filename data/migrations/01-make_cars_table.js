@@ -16,11 +16,18 @@ exports.up = function (knex) {
 
     table.string('model', 128).notNullable()
 
-    table.numeric('mileage').notNullable()
+    table.numeric('mileage').unsigned().notNullable()
+    //the .unsigned() means that the milage cannot be negative num
     //this is a number so we are using numeric
 
     table.string('title', 128)
     //this is not required hence the lack of .notNullable()
+
+
+
+    //YOU CAN DO A .defaultTO('') AND THEN PUT YOUR VALUES IN THERE
+
+
 
     table.string('transmission', 128)
     //this is not required hence the lack of .notNullable()
@@ -29,5 +36,14 @@ exports.up = function (knex) {
 };
 
 exports.down = function (knex) {
-  // DO YOUR MAGIC
+  return knex.schema.dropTableIfExists('cars') 
+  //if we had more than one table we would be dropping 
+  //them in the opposite order we created them!
+  //the order in these matters a great deal
+
+  //the down functions undoes all of the things the
+  //up funciton did and in reverse order
+
+  
+
 };
